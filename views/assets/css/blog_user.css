@@ -1,0 +1,41 @@
+
+.inside{
+    background-color: white;
+    position:relative;
+    text-align: center;
+}
+.list-unstyled > li > a{
+    color: white;
+}
+body{
+    background-image: url("/assets/images/BGparallax.png");
+
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+
+}
+
+.btn-outline-primary{
+    border-color: #3f51b5;
+    color: #3f51b5;
+}
+.btnn{
+    background-color: #3f51b5;
+    color: white;
+}
+.btn-primary{
+    background-color: #3f51b5;
+    color: white;
+}
+.btn-block:hover{
+    background-color: #283686;
+    color: white;
+}
